@@ -1,0 +1,80 @@
+#main-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ /* Style the tab */
+ .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+#subject-title {
+  text-align: center;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(97, 74, 74);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
+
+
+/*Course style*/
+
+.course-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 10px;
+}
+
+.course-content-list {
+  list-style-type: none;
+}
+
+.course-content-list li {
+  padding: 5px;
+  margin-left: -40px;
+  cursor: pointer;
+}
+
+.course-content-list li {
+  padding: 5px;
+  margin-left: -40px;
+  cursor: pointer;
+}
+
+.course-content-list li:hover {
+  color: red;
+  background-color: gray;
+}
+
+.like {
+  margin-top: 75px;
+}

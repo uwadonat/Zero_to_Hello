@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zero to Heros</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="main-title">Zero to Heros</h1>
+
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="openHeading(event, 'topics')">
+        Topics
+      </button>
+      <button class="tablinks" onclick="openHeading(event, 'challenges')">
+        Challenges
+      </button>
+      <button class="tablinks" onclick="openHeading(event, 'jobs')">
+        Jobs
+      </button>
+      <button class="tablinks" onclick="openHeading(event, 'helps')">
+        Helps
+      </button>
+      <button class="tablinks" onclick="openHeading(event, 'course')">
+        Course
+      </button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="topics" class="tabcontent">
+      <h3 id="subject-title">Differents topics to discuss on</h3>
+      <p id="title"></p>
+    </div>
+
+    <div id="challenges" class="tabcontent">
+      <h3>challenges</h3>
+      <p>Here we will ahve different challenges and their solutions</p>
+    </div>
+
+    <div id="jobs" class="tabcontent">
+      <h3>jobs</h3>
+      <p>Lets have job offers</p>
+    </div>
+    <div id="course" class="tabcontent">
+      <h3>Topics</h3>
+      <div class="course-content">
+        <ul class="course-content-list">
+          <li id="object-link">Object</li>
+          <li id="function-link">Function</li>
+          <li id="class-link">Class</li>
+        </ul>
+
+        <div class="object-course"></div>
+      </div>
+    </div>
+
+    <div id="helps" class="tabcontent">
+      <h3>helps</h3>
+      <p>you need help on any javascript issue ask here</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="course.js"></script>
+    <script type="module" src="object.js"></script>
+  </body>
+</html>
