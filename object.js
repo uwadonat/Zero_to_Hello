@@ -14,12 +14,9 @@ const objectCourse = `
        a material it is made of, etc. The same way, JavaScript objects can have properties,
        which define their characteristics.</p>
 
-   <h3>Why do we need an object</h3>
+   <h3>Why do we need an object?</h3>
 
-   <p>In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup,
-       for example. A cup is an object, with properties. A cup has a color, a design, weight,
-       a material it is made of, etc. The same way, JavaScript objects can have properties,
-       which define their characteristics.</p>
+   <p>Objects in programming can be a combination of variables, functions, and data structures. This means that objects can store values, you can use objects to manipulate values and combine them into more complex objects, like arrays and still get all the benefits.</p>
 
     <p>Athor: ${object.author}</p>
     <div>

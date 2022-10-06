@@ -23,16 +23,16 @@ function openHeading(evt, headingName) {
 
 let subjects = [
   {
-    Name: "Kwizera Imana",
-    Description: "Kwizera Imana bisobanura iki ?",
+    Name: "Loadrunner",
+    Description: "What is loadrunner?",
     Solution:
-      "Ni iyihe migisha Imana yadusezeranyije? Ni iki kikwemeza ko ibyo Ijambo ry’Imana rivuga ari ukuri? Mu bice bikurikira turasuzuma bimwe mu bintu Imana yadusezeranyije n’impamvu twizera ko izabiduha. Nanone turareba icyo twakora kugira ngo tuzabibone.",
+      "LoadRunner is a software testing tool from Micro Focus. It is used to test applications, measuring system behaviour and performance under load. LoadRunner can simulate thousands of users concurrently using application software, recording and later analyzing the performance of key components of the application.",
   },
   {
-    Name: "Umugisha uva ku Mana",
-    Description: "Wakora iki ngo Imana iguhe imigisha?",
+    Name: "Software developer",
+    Description: "What is software developer",
     Solution:
-      "Ni iyihe migisha Imana yadusezeranyije? Ni iki kikwemeza ko ibyo Ijambo ry’Imana rivuga ari ukuri? Mu bice bikurikira turasuzuma bimwe mu bintu Imana yadusezeranyije n’impamvu twizera ko izabiduha. Nanone turareba icyo twakora kugira ngo tuzabibone",
+      "A software developer is a professional who is responsible for designing and building computer programs.",
   },
 ];
 
